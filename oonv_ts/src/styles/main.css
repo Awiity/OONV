@@ -1,0 +1,45 @@
+.main-container {
+    display: flex;
+    margin: auto;
+}
+
+
+
+.user-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 49%;
+}
+.main-container h2 {
+    text-align: center;
+    /*border: 0.05em solid red;*/
+    width: 100%;
+}
+
+.main-container .spinner-border {
+    align-items: center;
+    justify-content: center;
+}
+
+.post-list {
+    width: 49%;
+}
+.user-card
+{
+    width: 30%;
+
+}
+
+.form-factory {
+    width: 33%;
+    min-width: 500px;
+    margin: auto;
+}
+
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
